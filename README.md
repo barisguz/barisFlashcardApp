@@ -6,7 +6,7 @@ Lab 2
 App is able to show a question and give the answer when tapped on the screen
 
 ### App Walk-though
-<img src="barisCardLab2.gif" width=200><br>
+<img src="barisCardLab3.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Android Studio
