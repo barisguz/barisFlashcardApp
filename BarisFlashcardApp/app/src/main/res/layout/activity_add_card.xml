@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <EditText
+        android:id="@+id/editTextField"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="Please write the question..."
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        android:inputType="textMultiLine"
+        />
+
+    <EditText
+        android:id="@+id/editTextAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:hint="Please write the answer..." />
+
+    <ImageView
+        android:id="@+id/myExitButton"
+        android:layout_width="100dp"
+        android:layout_height="99dp"
+        android:src="@drawable/ic_iconmonstr_x_mark_4"
+        tools:ignore="MissingConstraints"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="4dp"
+        />
+
+    <ImageView
+        android:id="@+id/mySaveButton"
+        android:layout_width="112dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="318dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/save_icon"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

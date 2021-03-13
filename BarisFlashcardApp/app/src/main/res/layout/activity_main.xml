@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="What's the tallest mountain in the world?"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Mount Everest"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_below="@id/flashcard_question"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/myButton"
+        android:layout_width="100dp"
+        android:layout_height="99dp"
+        android:layout_alignTop="@+id/flashcard_question"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="203dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="-204dp"
+        android:src="@drawable/ic_iconmonstr_plus_5" />
+
+</RelativeLayout>
