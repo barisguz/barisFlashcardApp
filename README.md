@@ -7,7 +7,7 @@ App is able to go create multiple cards and browse through them.
 
 ### App Walk-though
 
-<img src="barisCardLab5.gif" width=200><br>
+<img src="barisCardLab5.2.gif" width=200><br>
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
