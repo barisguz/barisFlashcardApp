@@ -39,4 +39,16 @@
         android:layout_marginBottom="-204dp"
         android:src="@drawable/ic_iconmonstr_plus_5" />
 
+    <ImageView
+        android:id="@+id/myNextButton"
+        android:layout_width="77dp"
+        android:layout_height="69dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="349dp"
+        android:src="@drawable/ic_iconmonstr_arrow_27"
+        tools:ignore="MissingConstraints" />
+
 </RelativeLayout>
