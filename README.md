@@ -12,7 +12,7 @@ App has a small icon, has animations while going through the questions and addin
 <img src="barisCardLab6.gif" width=200><br>
 
 
-## Required
+## Features -1st Update-
 - [x] User sees a transition animation when going from the main screen to the add card screen.
 - [x] User sees a reveal animation when the flashcard is tapped and the answer is shown
 - [x] User sees flashcards animating in / out when the 'next' button is tapped
@@ -28,7 +28,7 @@ App is able to go create multiple cards and browse through them.
 
 <img src="barisCardLab5.2.gif" width=200><br>
 
-## Required
+## Features -2nd Update-
 - [x] User can create a card and still see their created card when the app is relaunched.
 - [x] User can create muliple cards and browse through all created cards
 
@@ -41,7 +41,7 @@ App is able to show a question and give the answer when tapped on the screen
 ### App Walk-though
 <img src="barisCardLab4.gif" width=200><br>
 
-## Required
+## Features -3rd Update-
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
 - [x] The 'Add Card Screen' has a cancel button to take the user back to the main screen
 - [x] User can enter and submit a Question and Answer through the 'Add Card Screen'
